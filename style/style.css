@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: red;
+}
+
+#container{
+    display: flex;
+    flex-flow: column wrap ;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width:600px;
+    height: 420px;
+    border-radius: 50px;
+    box-shadow: 0vw 0vw 5vw red;
+}
+
+div{
+    left: 6;
+    margin-top: 30px;
+}
+
+#Calculator{
+    width: 300px
+}
+
+input[type="radio"]{
+    color:red
+}
+
